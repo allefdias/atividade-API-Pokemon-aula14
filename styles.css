@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-image: url(img/teahub.io-ditto-wallpaper-1720547.jpg);
+}
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+   
+    margin-top: 10%;
+}
+
+.main{
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0;
+    max-width: 40%;
+    height:auto ;
+    background-color: rgb(55, 95, 17);
+}
+
+h1 {
+    color: #faa04b;
+}
+
+button{
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #ff7b00;
+}
+
+input[type="text"] {
+    border: 1px solid #ee7f17;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #ee7f17;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#pokemon-info {
+    background-color: rgb(243, 226, 206);
+    border-radius: 25px;
+    border: 1px solid #ee7f17;
+    margin-top: 20px;
+}
+
+#pokemon-info img {
+    max-width: 300px;
+    height: auto;
+}
